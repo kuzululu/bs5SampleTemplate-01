@@ -16,6 +16,7 @@
 	<script type="text/javascript" src="js/aos.js"></script>
 	<script type="text/javascript" src="js/all.min.js"></script>
 	<script type="text/javascript" src="js/scrollTop.js"></script>
+	<script type="text/javascript" src="js/number.js"></script>
 </head>
 <body>
 
@@ -221,6 +222,58 @@
  </div>	
 </section>
 
+<section id="sixth-section" class="mb-5">
+ <div class="container">
+  <div class="row text-center">
+  	<div class="col-md-12 col-lg-12">
+  		<h3 class="text-uppercase fst-italic animate__animated animate__fadeIn animate__infinite infinite animate__slow">Contact Us</h3>
+  	</div>
+  </div>
+  <div class="row">
+  	<div class="col-md-6 col-lg-6">
+  		
+  	</div>
+  	<div class="col-md-6 col-lg-6">
+  	  <!-- <form class="row gx-3 gy-1 pb-2 needs-validation" novalidate="" method="POST"> -->
+  	  <form class="row needs-validation" novalidate="" method="POST">
+  	  	
+  	  	<div class="col-md-12 mb-3">
+  	  	 <label class="fw-bolder">Name:</label>
+  	  	 <div class="input-group">
+  	  	 	<span class="input-group-text"><i class="fa fa-user"></i></span>
+  	  	 	<input type="text" name="name" class="form-control border border-2" required="">
+  	  	 	<div class="invalid-feedback">Please fill out the name</div>
+  	  	 </div>
+  	  	</div>
+
+  	  	<div class="col-md-12 mb-3">
+  	  	 <label class="fw-bolder">Address:</label>
+  	  	 <div class="input-group">
+  	  	 	<span class="input-group-text"><i class="fa fa-map"></i></span>
+  	  	 	<input type="text" name="add" class="form-control border border-2" required="">
+  	  	 	<div class="invalid-feedback">please fill out the address</div>
+  	  	 </div>
+  	  	</div>
+
+  	  	<div class="col-md-12 mb-3">
+  	  	 <label class="fw-bolder">Contact:</label>
+  	  	 <div class="input-group">
+  	  	 	<span class="input-group-text"><i class="fa fa-phone-alt"></i></span>
+  	  	 	<input type="number" name="contact" value="0" class="form-control border border-2 num" required="">
+  	  	 	<div class="invalid-feedback"></div>
+  	  	 </div>
+  	  	</div>
+
+  	  	<div class="col-md-12 mb-3">
+  	  	 <input type="submit" class="btn btn-outline-success btn-sm" name="btnSend" value="Send">
+  	  	</div>
+
+  	  </form>
+  	</div>
+  </div>	
+ </div>
+</section>
+
 
 <footer class="text-center bgColor">
   <!-- Grid container -->
@@ -300,5 +353,6 @@
 
 <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
 <script type="text/javascript" src="js/aosInit.js"></script>
+<script type="text/javascript" src="js/custom-need-validation.js"></script>
 </body>
 </html>
